@@ -1,6 +1,11 @@
-#import "@preview/tablex:0.0.6": *
+#import "@preview/tablex:0.0.7": *
+#let www=12cm
 #set page(
-  width: 1cm,
+  width: www,
   height: 40cm,
 )
-aaaa
+#let title="aaaa"
+#title
+#pagebreak(
+  weak: true
+)
